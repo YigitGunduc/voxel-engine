@@ -1,0 +1,24 @@
+{
+  "name": "voxel-engine",
+  "version": "1.0.0",
+  "description": "A simple voxel engine that creates procedural worlds with javascript and Three.js",
+  "main": "public/index.js",
+  "scripts": {
+    "run": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YigitGunduc/voxel-engine.git"
+  },
+  "author": "Yigit Gunduc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YigitGunduc/voxel-engine/issues"
+  },
+  "homepage": "https://github.com/YigitGunduc/voxel-engine#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "three": "^0.134.0"
+  }
+}
